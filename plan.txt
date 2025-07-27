@@ -1,0 +1,14 @@
+//Game plan
+define the board//
+find who plays first and keep track of the moves//
+check for game termination//
+display the final result//
+
+//AI
+get the current game state//
+find all the current opints of influence//
+uptata it to the frontier
+run all the posible out comes
+finde the best possibile move 
+play it 
+on next turn repeat all

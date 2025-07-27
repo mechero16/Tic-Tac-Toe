@@ -1,0 +1,48 @@
+body{
+    background: #000000;
+}
+
+#hmain{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+#selector{
+    background-color: rgb(37, 37, 37);
+    margin: auto;
+    height: 15.625rem;
+    width: 31.25rem;
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+   
+}
+.btn{
+    display: flex;
+    margin: 0.3125rem;
+    background-color:#2c2b2b;
+    width: 15rem;
+    height:6.25rem;
+    color: aliceblue;
+    font-size: 6.25rem;
+    text-align: center;
+    border-radius: 1.25rem;
+    margin-top: 4.9375rem;
+}
+button:hover{
+   color: rgb(0, 0, 0);
+   background: #fdfdfd;
+}
+ .st {
+    position: relative;
+    left: 4.5rem;
+    bottom: 8rem;
+}
+.sh{   
+    margin: 0%;
+    position: relative;
+    top:1.25rem;
+    font-size: 2.5rem;
+}
+

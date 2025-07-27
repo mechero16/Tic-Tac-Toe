@@ -1,0 +1,94 @@
+body{
+    background: #000000;
+}
+
+#hmain{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+#selector{
+    background-color: rgb(37, 37, 37);
+    margin: auto;
+    height: 28.3125rem;
+    width: 31.25rem;
+    text-align: center;
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+   
+}
+.btn{
+    display: flex;
+    position: relative;
+    margin: 0.3125rem;
+    background-color: #2c2b2b;
+    width: 28.5rem;
+    height: 6.25rem;
+    color: aliceblue;
+    font-size: 4.25rem;
+    text-align: center;
+    border-radius: 1.25rem;
+    margin-top: 1.375rem;
+    left: 15.125rem;
+    bottom: 23.25rem;
+}
+button:hover{
+   color: rgb(0, 0, 0);
+   background: #fdfdfd;
+}
+.playerinfo{
+    background: #2d2d2d;
+    width: 31.25rem;
+    height: 3.125rem;
+    color: aliceblue;
+    border-radius: 1.5625rem;
+
+}
+#p2{
+    position: relative;
+    top: -1.75rem;
+    left: -0.0625rem;
+}
+#p1{
+    position: relative;
+    top:-1.3125rem;
+    left: -0.0625rem;
+
+}
+.table{
+    position: relative;
+    top: -1rem;
+    left: -0.0625rem;
+    height: 22.0625rem;
+    width: 31.25rem;
+}
+.cells{
+    background: #121212;
+    border-radius: 1.25rem;
+    color:#632727;
+    height: 7.0625rem;
+    width: 31.25rem;
+}
+.cells:hover{
+    background: #3a3333;
+}
+.pit{
+    position: relative;
+    top: 0.8125rem;
+    left: -12.5625rem
+}
+.mark{
+    position: relative;
+    top: -3.0625rem;
+    left: 12.375rem;
+    font-size: 30px;
+}
+.mhold{
+    font-weight: bold;
+    font-size: 5rem; 
+    padding: 0%;
+    margin: 0%;
+    color: aliceblue;
+}
+

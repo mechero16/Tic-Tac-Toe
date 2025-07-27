@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TictacComputer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="p2.css">
+
+</head>
+<body >
+    <H1 id="hmain" style="font-family: Playpen Sans, cursive; font-weight: bold; font-size: 250px; top: -199px"  >TIC TAC</H1>
+    <div id="selector">
+        <h3 id="hmain" class="sh" style="font-family: Playpen Sans, cursive;">Select  your symbol</h3>
+        
+        <button class="btn " onclick='cmark("O")' style="float: inline-start;" ><p class="st" style="font-family: Playpen Sans, cursive;">X</p></button>
+        <button class="btn " onclick='cmark("X")' style="float: inline-end;"><p class="st" style="font-family: Playpen Sans, cursive;">O</p></button>
+        
+    </div>
+    <script>
+        function cmark(a){
+            if (a=="X"){
+            localStorage.setItem('comark',"X")
+            localStorage.setItem('Hmark',"O")
+            }
+            if (a=="O"){
+            localStorage.setItem('comark',"O")
+            localStorage.setItem('Hmark',"X")
+            }
+            document.location='sboard.html'
+        }
+    </script>
+</body>
+</html>
